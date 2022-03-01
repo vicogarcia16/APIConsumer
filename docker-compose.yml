@@ -1,0 +1,19 @@
+version: '3.4'
+
+services:
+  apiconsumer:
+    image: apiconsumer
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    ports:
+      - 8000:8000
+    environment:
+      - secret=edafbe51a7327be8b50e
+      - algorithm=HS256
+    container_name: micro-service-fastapi
+    networks:
+      - fastapi-network
+networks: 
+  fastapi-network:
+    driver: bridge
