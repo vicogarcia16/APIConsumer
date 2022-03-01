@@ -14,9 +14,12 @@ Creación e implementación de una API que consume servicios financieros y extra
 * Si se requiere ejecutar en Docker, favor de realizar el siguiente comando: docker-compose up -d 
 
 ## Ejecución del software ⚙️
-
+### Local
 * Ejecutar el comando en cmd o terminal [uvicorn main:app --reload]
-* Posteriormente acceder a la url por defecto [127.0.0.1:8000].
+* Posteriormente acceder a la url por defecto [127.0.0.1:8000]
+### Docker
+* Si ha realizado la imagen Docker ejecutar el contenedor creado "micro-service-fastapi" y posteriormente abrir el navegador en la URL: [localhost:8000]
+### Autenticación
 * Para tener autorización sobre los elementos o petiiciones GET, registrar un usuario y contraseña temporal o en su defecto loggearse. Esto se realiza, 
 para recibir el token de acceso (Nota: Dicho token caduca a los 10 minutos)
 
