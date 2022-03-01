@@ -27,7 +27,12 @@ para recibir el token de acceso (Nota: Dicho token caduca a los 10 minutos)
 * Dar clic al botón [Authorize] y pegar el token en el input de tipo texto
 
 ![Ingresar token](https://github.com/vicogarcia16/APIConsumer/blob/master/capturas/captura3.JPG)
+### Peticiones GET
+* Recuerde que cada proveedor requiere su propio API de acceso. En el caso de DOF no lo requiere, sin embargo en el caso de Banxico y Fixerio si se requiere.
+* Se realizaron salidas de información para cada uno de los proveedores como se observa en la primera imagen y una petición GET llamada "Datos" la cual 
+recibe la información de los tres proveedores como se observa en la siguiente imagen.
 
+![Ingresar token](https://github.com/vicogarcia16/APIConsumer/blob/master/capturas/captura4.JPG)
 ## Construido con 🛠️
 
 * [Python](https://www.python.org/) - Lenguaje de programación
