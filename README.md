@@ -5,7 +5,7 @@ Creación e implementación de una API que consume servicios financieros y extra
 * [Fixerio](https://fixer.io/)
 * [Banxico](https://www.banxico.org.mx/SieAPIRest/service/v1/doc/consultaDatosSerieRango)
 
-![Listado de funciones](https://github.com/vicogarcia16/ComerciosEmpleados/blob/master/capturas/1.JPG)
+![Listado de funciones](https://github.com/vicogarcia16/APIConsumer/blob/master/capturas/captura1.JPG)
 
 ## Instalación 🔧
 
@@ -20,10 +20,10 @@ Creación e implementación de una API que consume servicios financieros y extra
 * Para tener autorización sobre los elementos o petiiciones GET, registrar un usuario y contraseña temporal o en su defecto loggearse. Esto se realiza, 
 para recibir el token de acceso (Nota: Dicho token caduca a los 10 minutos)
 
-![Ingresar usuario](https://github.com/vicogarcia16/ComerciosEmpleados/blob/master/capturas/2.JPG)
+![Ingresar usuario](https://github.com/vicogarcia16/APIConsumer/blob/master/capturas/captura2.JPG)
 * Dar clic al botón [Authorize] y pegar el token en el input de tipo texto
 
-![Ingresar token](https://github.com/vicogarcia16/ComerciosEmpleados/blob/master/capturas/3_.JPG)
+![Ingresar token](https://github.com/vicogarcia16/APIConsumer/blob/master/capturas/captura3.JPG)
 
 ## Construido con 🛠️
 
